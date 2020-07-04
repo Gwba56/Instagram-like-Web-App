@@ -1,0 +1,254 @@
+/* Recuring rules */
+/* 
+:root {
+    --aqua: #55E6B9;
+    --oceangreen: #46BD98;
+    --gainsboro: #DBDBDB;
+    --raisinblack: #262626;
+    --snow: #FAFAFA;
+    --white: #FFFFFF;
+}
+
+html, body {
+    height:100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--raisinblack);
+    background-color: var(--snow);
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    padding:2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    color:var(--aqua);
+}
+
+/* Footer */
+
+/* .sticky-footer {
+    height: 8%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: var(--white);
+    border-top: 1px solid var(--gainsboro);
+} */
+
+/* User forms */
+
+/* form {
+    padding: 50px;
+}
+
+.main-frame {
+    position: absolute;
+    top: 120px;
+    width: calc(100% - 40px);
+    background-color: yellow;
+
+}
+.centered-frame {
+    width: 350px;
+    line-height: 30px;
+    margin: 10px auto;
+    padding: 0;
+    background-color: var(--white);
+    border: 1px solid var(--gainsboro);
+    text-align: center;
+}
+
+.main {
+    margin-top: 130px;
+} */
+
+
+/* Gallery display */
+/* 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem -1rem;
+    padding-bottom: 3rem;
+}
+
+.gallery-item {
+    position: relative;
+    flex: 1 0 22rem;
+    margin: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.gallery-item:hover .gallery-item-info,
+.gallery-item:focus .gallery-item-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item-info {
+    display: none;
+}
+
+.gallery-item-info li {
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.gallery-item-likes {
+    margin-right: 2.2rem;
+}
+
+.gallery-item-type {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.fa-clone,
+.fa-comment {
+    transform: rotateY(180deg);
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */ 
+
+/* Single publication display */
+
+/* .publication-whole {
+    width:935px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    background-color: var(--white);
+    border:1px solid var(--gainsboro);
+    flex-direction: row;
+}
+
+.publication-picture {
+    width: 600px;
+    height: 600px;;
+} */
+
+/* Account modification page */
+/* 
+.account-modification-form {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border: 1px solid var(--gainsboro);
+    height: 350px;
+}
+
+.account-menu {
+    border-right: 1px solid var(--gainsboro);
+    width: 300px;
+}
+
+.account-menu li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.account-form {
+    width: 400px;
+} */
+
+/* Camera display */
+
+#main {
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+}
+
+.gallery {
+    height: 750px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-item {
+    width:100px;
+    height:100px;
+}
+
+#camera #video_div {
+
+    position : relative;
+    margin: auto;
+}
+
+#camera #live_video {
+    width: 100%;
+	height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+#overlay{
+    height: 480px;
+    width: 640px;
+}
+
+#camera #video_div #video #camera_img {
+	width: 100%;
+	z-index:0;
+}
+#camera #video_div #camera_img{
+	object-fit: cover;
+}
+
+#camera_section {
+    width: 70%;
+}
+
+#sticker_div {
+    display: flex;
+    flex-direction: row;
+    margin: 15px auto;
+    background-color: var(--white);
+    border: 1px solid var(--gainsboro);
+}
+.stickerImg {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    background-color: var(--gainsboro);
+}
+
+.active {
+    filter: brightness(1.5);
+
+    
+}
+
+#camera_section {
+    display: flex;
+    flex-direction: column;
+}
